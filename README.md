@@ -3,7 +3,7 @@
 
 ## Dataset description
 
-**Source:** FP20 Analytics Challenge 8 — IT Help Desk Analysis (Tickets and Agents, joined on `Agent ID`). The source data as-is is actually 0% null and has zero duplicates, so for this exercise I intentionally introduced realistic missing values and duplicate rows to give Tasks 2 and 3 something genuine to find and fix. What exactly got changed and why is written up in `NOTE_on_joined_with_issues.md`.
+**Source:** FP20 Analytics Challenge 8 — IT Help Desk Analysis (Tickets and Agents, joined on `Agent ID`). The source data as-is is actually 0% null and has zero duplicates, so for this exercise I intentionally introduced realistic missing values and duplicate rows to give Tasks 2 and 3 something genuine to find and fix. So the Raw dataset is in the name "data/joined_with_issues.csv"
 
 **Why this dataset:** It's built around a real operational question — how do you speed up ticket resolution and keep customers happy — which is exactly the kind of internal analytics tool a company would actually build for its own support team. The relationships in here aren't randomly generated either: `Request Category` has a big, consistent effect on how long a ticket takes, and `Priority_level` correlates with resolution speed in a way that makes intuitive sense.
 
